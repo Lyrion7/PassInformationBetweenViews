@@ -21,6 +21,7 @@
 		C9D8FBD61825C97D00F9DFB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D8FBB81825C97D00F9DFB7 /* UIKit.framework */; };
 		C9D8FBDE1825C97D00F9DFB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9D8FBDC1825C97D00F9DFB7 /* InfoPlist.strings */; };
 		C9D8FBE01825C97D00F9DFB7 /* PushNewViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8FBDF1825C97D00F9DFB7 /* PushNewViewControllerTests.m */; };
+		C9D8FBEB1825D3AB00F9DFB7 /* SegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8FBEA1825D3AB00F9DFB7 /* SegundoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C9D8FBDB1825C97D00F9DFB7 /* PushNewViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushNewViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		C9D8FBDD1825C97D00F9DFB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9D8FBDF1825C97D00F9DFB7 /* PushNewViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNewViewControllerTests.m; sourceTree = "<group>"; };
+		C9D8FBE91825D3AB00F9DFB7 /* SegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundoViewController.h; sourceTree = "<group>"; };
+		C9D8FBEA1825D3AB00F9DFB7 /* SegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C9D8FBC61825C97D00F9DFB7 /* Main.storyboard */,
 				C9D8FBC91825C97D00F9DFB7 /* ViewController.h */,
 				C9D8FBCA1825C97D00F9DFB7 /* ViewController.m */,
+				C9D8FBE91825D3AB00F9DFB7 /* SegundoViewController.h */,
+				C9D8FBEA1825D3AB00F9DFB7 /* SegundoViewController.m */,
 				C9D8FBCC1825C97D00F9DFB7 /* Images.xcassets */,
 				C9D8FBBB1825C97D00F9DFB7 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				C9D8FBCB1825C97D00F9DFB7 /* ViewController.m in Sources */,
 				C9D8FBC51825C97D00F9DFB7 /* AppDelegate.m in Sources */,
+				C9D8FBEB1825D3AB00F9DFB7 /* SegundoViewController.m in Sources */,
 				C9D8FBC11825C97D00F9DFB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SegundoViewController : UIViewController
+@interface SegundoViewController : UIViewController{
+    NSString * inputDelViewControllerAnterior;
+}
+
+@property (nonatomic, strong) NSString *inputDelViewControllerAnterior;
+@property (strong, nonatomic) IBOutlet UILabel *txtDelViewControllerAnterior;
 
 @end

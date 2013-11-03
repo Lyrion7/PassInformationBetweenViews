@@ -13,6 +13,7 @@
 @end
 
 @implementation SegundoViewController
+@synthesize txtDelViewControllerAnterior, inputDelViewControllerAnterior;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +27,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    //Cambiamos el texto del UILabel por el texto que se le cambio al
+    //parámetro "inputDelViewControllerAnterior" cuando se inicializó
+    //en la vista anterior.
+    txtDelViewControllerAnterior.text = inputDelViewControllerAnterior;
 }
 
 - (void)didReceiveMemoryWarning
